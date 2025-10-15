@@ -4,13 +4,20 @@ This React Native app lets you create your own shopping list by adding different
 ## How to run the app
 1. Download the code by running:
 ```
-git clone https://github.com/danii1382/shopping_list_app.git
+git clone https://github.com/danii1382/shopping_list_app_2.git
 ```
 3. Open terminal and navigate to the project directory
 4. Run the following
 ```bash
 npm install expo
 ```
-and then
+```
+npm install @react-native-async-storage/async-storage
+
+```
+```
+npx expo install expo-location react-native-maps
+
+```
 ```
 npx expo start
